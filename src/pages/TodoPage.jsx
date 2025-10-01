@@ -16,8 +16,8 @@ export default function TodoPage(){
 
             // Récupérer les données du back
             // const req = await fetch("http://localhost:3000/api/v1/todos") //app.js
-            
-            const req = await fetch("https://todo-list-back-6noy.onrender.com//api/v1/todos") //app.js
+
+            const req = await fetch("https://todo-list-back-6noy.onrender.com/api/v1/todos") //app.js
             if(!req.ok) throw new Error("Erreur lors du chargement des tâches")
 
             const datas =await req.json()
