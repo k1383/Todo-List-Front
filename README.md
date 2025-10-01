@@ -35,7 +35,7 @@ Select a variant → Javascript
 npm install (Pour installer les dépendances)
 npm install sass (Installer Sass)
 npm install react-router-dom
-npm run dev (et ctrl clic sur Local: http://localhost...)
+npm run dev (et ctrl clic sur Local: http://localhost:)
 
 
 ### Aperçu 
