@@ -7,7 +7,6 @@ export default function TodoPage(){
     const [todos, setTodos] = useState([])
     const [loading, setLoading] = useState(true)
     const [error, setError] = useState(null)
-
     
     // Charger TOUS les éléments de liste 
     const fetchTodos = async () => {
@@ -16,7 +15,7 @@ export default function TodoPage(){
             setLoading(true)
 
             // Récupérer les données du back
-            const req = await fetch("http://localhost:3000/api/v1/todos")  //app.js
+            const req = await fetch("https://todo-list-back-xxxxx.onrender.com/api/v1/todos"); // app.js
             if(!req.ok) throw new Error("Erreur lors du chargement des tâches")
 
             const datas =await req.json()
@@ -91,6 +90,6 @@ export default function TodoPage(){
         </>
     )
 
-    // Afficher les éléments de liste en deux parie : à compléter et complétée
+    // Afficher les éléments de liste en deux partie : à compléter et complétée
 
 }

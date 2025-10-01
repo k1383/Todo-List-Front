@@ -9,7 +9,7 @@ export default function Element({ id, title, isCompleted, creationDate, onDelete
             const req = await fetch(`http://localhost:3000/api/v1/todos/${id}`, { method: "PATCH"})
             if(!req.ok) throw new Error("Impossible de mettre à jour la tâche")
             setShowIsCompleted(!showIsCompleted)
-        const res = await req.json()
+            const res = await req.json()
             setShowCompletedDate(res.isCompletedDate)
         } catch (error) {
             setError(error.message)
