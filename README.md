@@ -1,6 +1,5 @@
 # Todo List
-badge react à faire et javascript 
-
+[![React](https://img.shields.io/badge/React-%2320232a.svg?logo=react&logoColor=%2361DAFB)](#) [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=000)](#)
 ## Table des matières
 - [Description](#Description)
 - [Objectif](#Objectif)
@@ -58,3 +57,5 @@ Déploiement du Front-end sur Render
     - **Build Command:** `npm run build`
     - **Publish Directory:** `dist` pour les sites statiques ; `dist/client` si vous avez des pages rendues à la demande.
 5. Cliquez sur le bouton **Create Static Site**
+
+- Repository GitHub du [Back-end](https://github.com/k1383/Todo-List-back)
