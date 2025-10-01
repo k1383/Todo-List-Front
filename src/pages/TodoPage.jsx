@@ -67,7 +67,7 @@ export default function TodoPage(){
         } 
     }
 
-    if(loading) return <p>Chargment des données en cours</p>
+    if(loading) return <p>Chargement des données en cours</p>
     if(error) return <P style={{ color:"red" }}>{error}</P>
 
     return (
