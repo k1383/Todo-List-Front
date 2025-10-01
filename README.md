@@ -28,14 +28,13 @@ cd Todo-List-Front
 ```
 
 2. Installer les dépendances
-npm create vite@latest 
-Project name → nom du projet
-Select a framework → React
-Select a variant → Javascript
-npm install (Pour installer les dépendances)
-npm install sass (Installer Sass)
-npm install react-router-dom
-npm run dev (et ctrl clic sur Local: http://localhost:)
+- npm create vite@latest 
+- Project name → nom du projet
+- Select a framework → React
+- Select a variant → Javascript
+- npm install (Pour installer les dépendances)
+- npm install react-router-dom
+- npm run dev (et ctrl clic sur Local: http://localhost:)
 
 
 ### Aperçu 
