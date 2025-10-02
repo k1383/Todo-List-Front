@@ -1,5 +1,6 @@
 # Todo List
 [![React](https://img.shields.io/badge/React-%2320232a.svg?logo=react&logoColor=%2361DAFB)](#) [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=000)](#)
+
 ## Table des matières
 - [Description](#Description)
 - [Objectif](#Objectif)
@@ -8,7 +9,7 @@
 - [Déploiement](#Déploiement)
 
 ### Description
-- **Todo List** est une application web permettant à un utilisateur de pouvoir créer une todo list 
+- **Todo List** est une application web permettant à un utilisateur de pouvoir créer une todo list, cocher s'il le souhaite pour indiquer qu'une tâche est fini ou pas et possibilité de supprimer une tâche 
 
 ### Objectif
 Créer une todo list
