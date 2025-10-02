@@ -30,7 +30,7 @@ cd Todo-List-Front
 
 2. Installer les dépendances
 - `npm install` (Pour installer les dépendances)
-- `npm run dev` (et ctrl clic sur Local: http://localhost:)
+- `npm run dev` (et ctrl clic sur Local: http://localhost: )
 
 
 ### Aperçu 
